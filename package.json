@@ -1,0 +1,32 @@
+{
+  "name": "bigmomblog",
+  "version": "1.0.0",
+  "description": "blog english",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NghiaHoang303/bigMomBlog_nodejs.git"
+  },
+  "keywords": [
+    "bigmom",
+    "bigmomenglish",
+    "nodejs",
+    "english"
+  ],
+  "author": "Nghia Hoang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NghiaHoang303/bigMomBlog_nodejs/issues"
+  },
+  "homepage": "https://github.com/NghiaHoang303/bigMomBlog_nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
