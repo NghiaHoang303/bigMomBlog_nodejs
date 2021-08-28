@@ -24,19 +24,18 @@
     "url": "https://github.com/NghiaHoang303/bigMomBlog_nodejs/issues"
   },
   "homepage": "https://github.com/NghiaHoang303/bigMomBlog_nodejs#readme",
-
   "lint-staged": {
     "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-with 4 --write"
   },
-
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }, 
+  },
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.3.3",
+    "mongoose": "^6.0.2",
     "node-sass": "^6.0.1"
   },
   "devDependencies": {
