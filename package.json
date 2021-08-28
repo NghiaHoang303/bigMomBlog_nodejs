@@ -24,6 +24,7 @@
     "url": "https://github.com/NghiaHoang303/bigMomBlog_nodejs/issues"
   },
   "homepage": "https://github.com/NghiaHoang303/bigMomBlog_nodejs#readme",
+
   "lint-staged": {
     "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-with 4 --write"
   },
