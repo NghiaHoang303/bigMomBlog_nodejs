@@ -1,10 +1,8 @@
 class SearchController {
-
-   //[GET] /search
-   search(req, res) {
-      res.render('search')
-   }
-   
+  //[GET] /search
+  search(req, res) {
+    res.render('search');
+  }
 }
 
-module.exports = new SearchController;
+module.exports = new SearchController();
