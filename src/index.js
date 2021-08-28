@@ -13,16 +13,16 @@ app.use(
 );
 app.use(express.json());
 
-app.use(express.static(path.join(__dirname, 'public')));
-console.log(__dirname);
+      app.use(express.static(path.join(__dirname, 'public')));
+      console.log(__dirname);
 
 // app.use(morgan('combined'));
 
 // template engines
-app.engine(
+      app.engine(
   'hbs',
-    handlebars({
-        extname: 'hbs',
+  handlebars({
+    extname: 'hbs',
   }),
 );
   app.set('view engine', 'hbs');

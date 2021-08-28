@@ -5,7 +5,7 @@ const searchRouter = require('./search');
 function route(app) {
   app.get('/news', newRouter);
 
-    app.get('/search', searchRouter);
+  app.get('/search', searchRouter);
 
   app.get('/', siteRouter);
 }
