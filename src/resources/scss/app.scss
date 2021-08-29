@@ -16,3 +16,26 @@ h1 {
     max-width: $width-image;
     height: $height-image;
 }
+
+.navbar-course-item {
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+}
+
+.course-list {
+    list-style: none;
+    background-color:rgb(148, 224, 86);
+    width: auto;
+    height: 30px;
+    font-size: 20px;
+    color: #999
+}
+
+.body-course-item {
+    background-color: rgb(246, 243, 243);
+    
+}
+
+.form-style {
+    margin: 10px;
+}
