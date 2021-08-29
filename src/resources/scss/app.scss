@@ -1,5 +1,18 @@
 @import 'variables';
 
-    h1 {
-       color: $red-color;
+h1 {
+   color: $red-color;
+}
+
+.card-course-item {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.image-course-item {
+    max-width: $width-image;
+    height: $height-image;
 }
