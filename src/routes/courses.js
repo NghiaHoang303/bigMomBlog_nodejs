@@ -13,6 +13,10 @@ router.put('/:id', coursesController.update);
 
 router.delete('/:id', coursesController.delete);
 
+router.delete('/:id/force', coursesController.destroy);
+
+router.patch('/:id/restore', coursesController.restore);
+
 router.get('/:slug', coursesController.show);
 
 module.exports = router;
