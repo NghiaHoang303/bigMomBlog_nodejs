@@ -8,6 +8,8 @@ const port = 3000;
 const route = require('./routes');
 const db = require('./config/db');
 
+const SortMiddleware = require('./app/middlewares/SortMiddleware');
+
 db.connect();
 app.use(
   express.urlencoded({
@@ -15,7 +17,10 @@ app.use(
   }),
 );
 app.use(express.json());
-app.use(methodOverride('_method'))
+app.use(methodOverride('_method'));
+
+//custom middleware
+app.use(SortMiddleware);
 
   app.use(express.static(path.join(__dirname, 'public')));
   console.log(__dirname);

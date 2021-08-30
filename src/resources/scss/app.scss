@@ -9,6 +9,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     
 }
 
@@ -33,7 +34,7 @@ h1 {
 
 .body-course-item {
     background-color: rgb(246, 243, 243);
-    
+    min-height: 500px;
 }
 
 .form-style {

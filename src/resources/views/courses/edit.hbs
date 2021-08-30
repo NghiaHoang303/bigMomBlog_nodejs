@@ -1,35 +1,28 @@
 <div class="mt-4">
-    <form method="POST" action="/courses/{{course._id}}?_method=PUT">
+    <form method="POST" action="/courses/{{course._id}}?_method=PUT" class="m-5">
         <div class=" form-group form-style">
             <h2>Update Course</h2>
             <div class="mb-3 ">
                 <label for="inputName">Name course</label>
-                <div class="col-sm-10">
                 <input type="text" class="form-control" value="{{course.name}}" id="inputName" name="name">
-                </div>
             </div>
 
             <div class="mb-3 ">
                 <label for="inputDescription">Description course</label>
-                <div class="col-sm-10">
                 <textarea type="text" class="form-control"  id="inputDescription" name= "description">
                     {{course.description}}
                 </textarea>
-                </div>
+                
             </div>
 
             <div class="mb-3 ">
                 <label for="inputVideoId">VideoId</label>
-                <div class="col-sm-10">
                 <input type="text" class="form-control" value="{{course.videoId}}" id="inputVideoId" name="videoId">
-                </div>
             </div>
 
             <div class="mb-3 ">
                 <label for="inputLevel">Level</label>
-                <div class="col-sm-10">
                 <input type="text" class="form-control" value="{{course.level}}" id="inputLevel" name="level">
-                </div>
             </div>
 
             <div class="">
